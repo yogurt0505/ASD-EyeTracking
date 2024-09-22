@@ -25,8 +25,8 @@ public class OVREyeGazeLogging : MonoBehaviour
         eyeTrackingData = new List<string>();
         filePath = Path.Combine(Application.persistentDataPath, "ASD-EyeTrackingData.csv");
 
-        eyeTrackingData.Add("Timestamp, GazeDirectionX, GazeDirectionY, GazeDirectionZ, RotationX, " +
-            "RotationY, RotationZ, RotationW, Confidence");
+        eyeTrackingData.Add("Timestamp,GazeDirectionX,GazeDirectionY,GazeDirectionZ,RotationX," +
+            "RotationY,RotationZ,RotationW,Confidence");
 
     }
 
